@@ -38,10 +38,10 @@ export const BABYBEEAGI_ITERATIONS = [
 export const AGENT = [
   {
     id: 'sandypro',
-    name: 'Above Average Mode',
+    name: 'Pretty Good Mode',
     icon: '🐝',
     message: 'Features: 🤖/🔎/📄',
-    badge: 'Pretty Good',
+    badge: 'NEW',
   },
   {
     id: 'supersandy',
