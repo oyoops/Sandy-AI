@@ -50,7 +50,7 @@ export const SidebarSettings: FC = () => {
           <div>
             <GearIcon />
           </div>
-          <div>Settings</div>
+          <div>SandySettings</div>
         </div>
       </DialogPrimitive.Trigger>
       <DialogPrimitive.Portal forceMount>

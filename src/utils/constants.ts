@@ -5,7 +5,7 @@ export const MODELS = [
   {
     id: 'gpt-4',
     name: 'SuperSandy',
-    message: '🚨 SuperSandy = Lowkey Buggy!',
+    message: '🚨 SuperSandy lowkey has bugs!',
     icon: 'openai-logo.svg',
   },
   {
@@ -16,7 +16,7 @@ export const MODELS = [
   {
     id: 'text-davinci-003',
     name: 'Sandy',
-    message: 'Why? Why purposely pick the sh*ttiest one?',
+    message: 'Why pick the sh*ttiest one? Moron.',
     icon: 'openai-logo.svg',
   },
 ];
@@ -54,6 +54,6 @@ export const AGENT = [
     name: 'Trash Mode',
     icon: '👶',
     message: 'Features: 🤖',
-    badge: 'Nothing Special...',
+    badge: 'Nothing Special :-(.',
   },
 ];

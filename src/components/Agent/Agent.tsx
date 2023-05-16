@@ -127,7 +127,7 @@ export const Agent: FC = () => {
 
   const startHandler = async () => {
     if (needSettingsAlert()) {
-      alert('Please set up your OpenAI API key from the SandySettings menu.');
+      alert('Woah, woah, woah! You don\'t yet have an access key. Get one from the \'SandySettings\' menu.');
       return;
     }
 

@@ -17,7 +17,7 @@ export const SidebarTheme: FC = () => {
 
   return (
     <SidebarButton
-      text={theme === 'light' ? 'Dark mode' : 'Light mode'}
+      text={theme === 'light' ? 'Dark Mode' : 'Way Too Bright Mode'}
       icon={theme === 'light' ? <MoonIcon /> : <SunIcon />}
       onClick={() => {
         setTheme(theme === 'dark' ? 'light' : 'dark');
