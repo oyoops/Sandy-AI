@@ -4,24 +4,24 @@ export const EXECUTIONS_KEY = 'BABYAGIUI_EXECUTIONS';
 export const MODELS = [
   {
     id: 'gpt-4',
-    name: 'OpenAI gpt-4',
-    message: '🚨 USING GPT-4. POTENTIALLY EXPENSIVE. MONITOR YOUR COSTS',
+    name: 'SuperSandy',
+    message: '🚨 SuperSandy is very expensive!',
     icon: 'openai-logo.svg',
   },
   {
     id: 'gpt-3.5-turbo',
-    name: 'OpenAI gpt-3.5-turbo',
+    name: 'Sandy Pro',
     icon: 'openai-logo.svg',
   },
   {
     id: 'text-davinci-003',
-    name: 'OpenAI text-davinci-003',
+    name: 'Sandy',
     icon: 'openai-logo.svg',
   },
 ];
 
 export const ITERATIONS = [
-  { id: '0', name: 'Infinity' },
+  { id: '0', name: 'Commit Eco-Terrorism' },
   { id: '1', name: '1' },
   { id: '3', name: '3' },
   { id: '5', name: '5' },
@@ -31,22 +31,28 @@ export const ITERATIONS = [
 ];
 
 export const BABYBEEAGI_ITERATIONS = [
-  { id: '0', name: 'Until All tasks completed 🐝' },
+  { id: '0', name: '\'til all tasks completed 🐝' },
 ];
 
 export const AGENT = [
   {
     id: 'babycatagi',
-    name: 'BabyCatAGI',
+    name: 'God Mode',
     icon: '🐱',
-    message: 'TOOLS: 🤖/🔎+📄',
-    badge: 'NEW',
+    message: 'Features: 🤖/🔎+📄',
+    badge: 'INCREDIBLE!',
   },
   {
     id: 'babybeeagi',
-    name: 'BabyBeeAGI',
+    name: 'Pretty Good Mode',
     icon: '🐝',
-    message: 'TOOLS: 🤖/🔎/📄',
+    message: 'Features: 🤖/🔎/📄',
+    badge: 'ABOVE AVERAGE!',
   },
-  { id: 'babyagi', name: 'BabyAGI', icon: '👶', message: 'TOOLS: 🤖' },
+  { id: 'babyagi',
+    name: 'Trash Mode',
+    icon: '👶',
+    message: 'Features: 🤖',
+    badge: 'NOTHING SPECIAL!',
+  },
 ];

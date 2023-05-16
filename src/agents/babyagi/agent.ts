@@ -63,7 +63,7 @@ export class BabyAGI {
 
     if (!this.verbose) return;
     console.log(
-      '%c*****OBJECTIVE*****%c\n%s',
+      '%c***** OBJECTIVE *****%c\n%s',
       'color:blue',
       '',
       this.objective,
@@ -73,7 +73,7 @@ export class BabyAGI {
   printGPT4Alert() {
     if (this.modelName !== 'gpt-4') return;
     console.log(
-      '%c*****USING GPT-4. POTENTIALLY EXPENSIVE. MONITOR YOUR COSTS*****%c',
+      '%c***** You are using SuperSandy. It is very expensive! *****%c',
       'color:red',
       '',
     );
@@ -89,7 +89,7 @@ export class BabyAGI {
     this.messageCallback(setupMessage('task-list', tasks));
 
     if (!this.verbose) return;
-    console.log('%c*****TASK LIST*****%c', 'color:fuchsia', '');
+    console.log('%c***** TASK LIST *****%c', 'color:fuchsia', '');
     console.log(tasks);
   }
 
@@ -100,7 +100,7 @@ export class BabyAGI {
     );
 
     if (!this.verbose) return;
-    console.log('%c*****NEXT TASK*****%c', 'color:green', '');
+    console.log('%c***** NEXT TASK *****%c', 'color:green', '');
     console.log(`${task.taskID}. ${task.taskName}`);
   }
 
@@ -109,7 +109,7 @@ export class BabyAGI {
     this.messageCallback(setupMessage('task-result', result.trim()));
 
     if (!this.verbose) return;
-    console.log('%c*****TASK RESULT*****%c', 'color:orange', '');
+    console.log('%c***** TASK RESULT *****%c', 'color:orange', '');
     console.log(result.trim());
   }
 

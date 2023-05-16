@@ -28,7 +28,8 @@ export const AgentParameter: FC<AgentParameterProps> = ({
   const [agentOption, setAgentOption] = useState<SelectItem[]>(AGENT);
   useEffect(() => {
     if (model.id !== 'gpt-4') {
-      setAgentOption(AGENT.filter((agent) => agent.id === 'babyagi'));
+      //setAgentOption(AGENT.filter((agent) => agent.id === 'babyagi'));
+      setAgentOption(AGENT); // HACK
     } else {
       setAgentOption(AGENT);
     }
