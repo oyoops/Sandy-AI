@@ -85,7 +85,7 @@ export const AgentParameter: FC<AgentParameterProps> = ({
       {agent.id !== 'sandy' && (
         <div className="flex w-full flex-col rounded bg-neutral-50 p-2 dark:bg-neutral-600 dark:bg-opacity-20">
           <label className="pl-1 text-xs text-neutral-400 dark:text-neutral-400">
-            {`Sorry, \'God Mode\' and \'Above Average Mode\' are only compatible with Sandy Pro right now.`}
+            {`OOPS!! \'God\' and \'Above Average\' Modes are only compatible with Sandy Pro.`}
           </label>
         </div>
       )}
