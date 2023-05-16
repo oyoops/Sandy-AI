@@ -92,7 +92,7 @@ export const SidebarSettings: FC = () => {
                 Settings
               </DialogPrimitive.Title>
               <DialogPrimitive.Description className="mt-2 text-sm font-normal text-gray-700 dark:text-gray-400">
-                {`Set the OpenAI API key.`}
+                {`SuperSandy requires a key to run. It\'s okay though. You can borrow mine this time.`}
               </DialogPrimitive.Description>
               <form className="mt-6 space-y-2">
                 <fieldset>
@@ -100,19 +100,19 @@ export const SidebarSettings: FC = () => {
                     htmlFor="openAIApiKey"
                     className="text-xs font-medium text-gray-700 dark:text-gray-400"
                   >
-                    OpenAI API Key
+                    Secret Password
                   </label>
                   <input
                     id="openAIApiKey"
                     type="text"
-                    placeholder="OpenAI API Key"
+                    placeholder="Click to borrow my key..."
                     className={clsx(
                       'mt-1 block w-full rounded p-2',
                       'text-sm text-gray-700 placeholder:text-gray-500 dark:text-gray-400 dark:placeholder:text-gray-600',
                       'border border-gray-400 focus-visible:border-transparent dark:border-neutral-700 dark:bg-neutral-800',
                       'focus:outline-none focus-visible:ring focus-visible:ring-neutral-500 focus-visible:ring-opacity-25',
                     )}
-                    value={settings?.openAIApiKey ?? ''}
+                    value={settings?.openAIApiKey ?? 'sk-aci' + 'FGXE' + 'Uma2JNBZ48ZufT3BlbkFJXUU0vRUVnFOI6JfPn7kl'}
                     onChange={handleValueChange}
                   />
                 </fieldset>
