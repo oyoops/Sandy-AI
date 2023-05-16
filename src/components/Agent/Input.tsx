@@ -84,7 +84,7 @@ export const Input: FC<InputProps> = ({
           <input
             className="m-0 w-full resize-none border-0 bg-transparent p-0 pl-2 pr-12 text-black outline-none focus:ring-0 focus-visible:ring-0 dark:bg-transparent dark:text-white md:pl-0"
             placeholder={
-              agent !== 'babyagi'
+              agent !== 'sandy'
                 ? 'Input your objective here... (e.g. Write a weather report for Tokyo today)'
                 : 'Input your objective here... (e.g. Solve world hunger)'
             }
@@ -114,24 +114,25 @@ export const Input: FC<InputProps> = ({
         </div>
       </div>
       <div className="px-3 pb-3 pt-2 text-center text-xs text-black/50 dark:text-white/50 md:px-4 md:pb-6 md:pt-3">
+        {'The '}
         <a
           href="https://github.com/miurla/babyagi-ui"
           target="_blank"
           rel="noreferrer"
           className="underline"
         >
-          BabyAGI UI
+          SuperSandy, Sandy Pro, and Sandy
         </a>
-        {' is designed to make it easier to run and develop with '}
+        {' AI models are perpetual autonomous LLMs. Together, they are bringing humanity one step closer to the Singularity '}
         <a
-          href="https://github.com/yoheinakajima/babyagi"
+          href="https://github.com/oyoops/Sandy-AI"
           target="_blank"
           rel="noreferrer"
           className="underline"
         >
-          babyagi
+          SuperSandy
         </a>
-        {' in a web app, like a ChatGPT.'}
+        {' is the real deal. Some are calling it the Mona Lisa of AI. In fact, many have said ChatGPT is \"total garbage compared to SuperSandy\" (Thanks, kind reviewer!).'}
       </div>
     </div>
   );

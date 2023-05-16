@@ -40,11 +40,11 @@ export const deleteExecution = (executionId: string) => {
 
 export const iconFromExecutionType = (type: AgentType) => {
   switch (type) {
-    case 'babyagi':
+    case 'sandy':
       return '👶';
-    case 'babybeeagi':
+    case 'sandypro':
       return '🐝';
-    case 'babycatagi':
+    case 'supersandy':
       return '🐱';
     default:
       return '🤖';

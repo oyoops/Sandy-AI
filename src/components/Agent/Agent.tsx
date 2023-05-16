@@ -127,7 +127,7 @@ export const Agent: FC = () => {
 
   const startHandler = async () => {
     if (needSettingsAlert()) {
-      alert('Please set up your OpenAI API key from the settings menu.');
+      alert('Please set up your OpenAI API key from the SandySettings menu.');
       return;
     }
 
@@ -139,7 +139,7 @@ export const Agent: FC = () => {
     // switch agent
     let agent = null;
     switch (selectedAgent.id) {
-      case 'babyagi':
+      case 'sandy':
         agent = new BabyAGI(
           objective,
           model.id,
@@ -155,7 +155,7 @@ export const Agent: FC = () => {
           verbose,
         );
         break;
-      case 'babybeeagi':
+      case 'sandypro':
         agent = new BabyBeeAGI(
           objective,
           model.id,
@@ -169,7 +169,7 @@ export const Agent: FC = () => {
           verbose,
         );
         break;
-      case 'babycatagi':
+      case 'supersandy':
         agent = new BabyCatAGI(
           objective,
           model.id,

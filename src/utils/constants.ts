@@ -5,7 +5,7 @@ export const MODELS = [
   {
     id: 'gpt-4',
     name: 'SuperSandy',
-    message: '🚨 SuperSandy is very expensive!',
+    message: '🚨 SuperSandy is Amazing but Expensive!',
     icon: 'openai-logo.svg',
   },
   {
@@ -16,6 +16,7 @@ export const MODELS = [
   {
     id: 'text-davinci-003',
     name: 'Sandy',
+    message: 'Why? Why purposely pick the sh*ttiest one?',
     icon: 'openai-logo.svg',
   },
 ];
@@ -36,23 +37,23 @@ export const BABYBEEAGI_ITERATIONS = [
 
 export const AGENT = [
   {
-    id: 'babycatagi',
+    id: 'supersandy',
     name: 'God Mode',
     icon: '🐱',
     message: 'Features: 🤖/🔎+📄',
-    badge: 'INCREDIBLE!',
+    badge: 'INCREDIBLE!!',
   },
   {
-    id: 'babybeeagi',
-    name: 'Pretty Good Mode',
+    id: 'sandypro',
+    name: 'Above Average Mode',
     icon: '🐝',
     message: 'Features: 🤖/🔎/📄',
-    badge: 'ABOVE AVERAGE!',
+    badge: 'Pretty Good!',
   },
-  { id: 'babyagi',
+  { id: 'sandy',
     name: 'Trash Mode',
     icon: '👶',
     message: 'Features: 🤖',
-    badge: 'NOTHING SPECIAL!',
+    badge: 'Nothing Special.',
   },
 ];

@@ -28,7 +28,7 @@ export const AgentParameter: FC<AgentParameterProps> = ({
   const [agentOption, setAgentOption] = useState<SelectItem[]>(AGENT);
   useEffect(() => {
     if (model.id !== 'gpt-4') {
-      //setAgentOption(AGENT.filter((agent) => agent.id === 'babyagi'));
+      //setAgentOption(AGENT.filter((agent) => agent.id === 'sandy'));
       setAgentOption(AGENT); // HACK
     } else {
       setAgentOption(AGENT);
@@ -56,7 +56,7 @@ export const AgentParameter: FC<AgentParameterProps> = ({
           }}
         />
       </div>
-      {agent.id === 'babyagi' && (
+      {agent.id === 'sandy' && (
         <div className="z-20 flex w-1/2 items-start pr-1 pt-2">
           <Select
             label="Iterations"
@@ -70,7 +70,7 @@ export const AgentParameter: FC<AgentParameterProps> = ({
           />
         </div>
       )}
-      {agent.id !== 'babycatagi' && (
+      {agent.id !== 'supersandy' && (
         <div className="flex w-full flex-col">
           <label className="mb-2 text-left text-xs text-neutral-700 dark:text-neutral-400">
             {'First Task'}
@@ -82,22 +82,10 @@ export const AgentParameter: FC<AgentParameterProps> = ({
           ></input>
         </div>
       )}
-      {agent.id !== 'babyagi' && (
+      {agent.id !== 'sandy' && (
         <div className="flex w-full flex-col rounded bg-neutral-50 p-2 dark:bg-neutral-600 dark:bg-opacity-20">
           <label className="pl-1 text-xs text-neutral-400 dark:text-neutral-400">
-            {`This BabyAGI can search and scrape the web. However, since this is an experimental feature, it may not always work and may be slow. `}
-            {'For more details: '}
-            <Link
-              href={
-                'https://twitter.com/yoheinakajima/status/1657448504112091136'
-              }
-              passHref
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline"
-            >
-              {'Please refer to the original paper.'}
-            </Link>
+            {`Sandy can search the web; but, man, it can be really f***ing slow sometimes...`}
           </label>
         </div>
       )}

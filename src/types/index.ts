@@ -31,7 +31,7 @@ export type ExecutionParams = {
   agent: AgentType;
 };
 
-export type AgentType = 'babyagi' | 'babybeeagi' | 'babycatagi' | 'none';
+export type AgentType = 'sandy' | 'sandypro' | 'supersandy' | 'none';
 
 export type MessageType =
   | 'objective'

@@ -42,7 +42,7 @@ export class BabyCatAGI {
   printBabyCat() {
     if (!this.verbose) return;
     console.log(
-      '%c*****BABY CAT AGI*****\n\n%c%s',
+      '%c***** BABY CAT AGI*****\n\n%c%s',
       'color:orange',
       '',
       'Baby Cat AGI is running...',
@@ -53,7 +53,7 @@ export class BabyCatAGI {
     this.messageCallback(setupMessage('objective', this.objective));
     if (!this.verbose) return;
     console.log(
-      '%c*****OBJECTIVE*****\n\n%c%s',
+      '%c***** OBJECTIVE*****\n\n%c%s',
       'color:blue',
       '',
       this.objective,
@@ -78,7 +78,7 @@ export class BabyCatAGI {
     this.messageCallback(setupMessage('task-list', message));
 
     if (!this.verbose) return;
-    console.log('%c*****TASK LIST*****\n\n%c', 'color:fuchsia', '');
+    console.log('%c***** TASK LIST*****\n\n%c', 'color:fuchsia', '');
     console.log(message);
   }
 
@@ -88,7 +88,7 @@ export class BabyCatAGI {
     this.messageCallback(setupMessage('session-summary', this.sessionSummary));
 
     if (!this.verbose) return;
-    console.log('%c*****SESSION SUMMARY*****\n\n%c', 'color:orange', '');
+    console.log('%c***** SESSION SUMMARY*****\n\n%c', 'color:orange', '');
     console.log(this.sessionSummary);
   }
 
@@ -101,7 +101,7 @@ export class BabyCatAGI {
     this.messageCallback(setupMessage('next-task', nextTask));
 
     if (!this.verbose) return;
-    console.log('%c*****NEXT TASK*****\n\n%s', 'color:green', '', nextTask);
+    console.log('%c***** NEXT TASK*****\n\n%s', 'color:green', '', nextTask);
   }
 
   printTaskOutput(output: string, task: AgentTask) {
@@ -114,7 +114,7 @@ export class BabyCatAGI {
     this.messageCallback(setupMessage('task-output', output, task?.tool));
 
     if (!this.verbose) return;
-    console.log('%c*****TASK RESULT*****\n%c%s', 'color:purple', '', output);
+    console.log('%c***** TASK RESULT*****\n%c%s', 'color:purple', '', output);
   }
 
   printDone() {
@@ -128,7 +128,7 @@ export class BabyCatAGI {
     );
 
     if (!this.verbose) return;
-    console.log('%c*****DONE*****%c', 'color:blue', '');
+    console.log('%c***** DONE *****%c', 'color:blue', '');
   }
 
   printAllTaskCompleted() {
@@ -136,7 +136,7 @@ export class BabyCatAGI {
 
     this.messageCallback(setupMessage('complete', 'All Tasks Completed'));
     if (!this.verbose) return;
-    console.log('%c*****ALL TASK COMPLETED*****%c', 'color:blue', '');
+    console.log('%c***** ALL TASKS COMPLETED *****%c', 'color:blue', '');
   }
 
   // Tools functions
