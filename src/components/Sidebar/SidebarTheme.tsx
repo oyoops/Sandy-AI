@@ -20,7 +20,7 @@ export const SidebarTheme: FC = () => {
       text={theme === 'light' ? 'Dark Mode' : 'Way Too Bright Mode'}
       icon={theme === 'light' ? <MoonIcon /> : <SunIcon />}
       onClick={() => {
-        setTheme(theme === 'dark' ? 'light' : 'dark');
+        setTheme(theme === 'light' ? 'dark' : 'light');
       }}
     />
   );
