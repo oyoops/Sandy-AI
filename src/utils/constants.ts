@@ -3,14 +3,14 @@ export const EXECUTIONS_KEY = 'BABYAGIUI_EXECUTIONS';
 
 export const MODELS = [
   {
-    id: 'gpt-4',
-    name: 'SuperSandy',
-    message: '🚨 SuperSandy lowkey has bugs!',
+    id: 'gpt-3.5-turbo',
+    name: 'Sandy Pro',
     icon: 'openai-logo.svg',
   },
   {
-    id: 'gpt-3.5-turbo',
-    name: 'Sandy Pro',
+    id: 'gpt-4',
+    name: 'SuperSandy',
+    message: '🚨 SuperSandy lowkey has bugs!',
     icon: 'openai-logo.svg',
   },
   {
@@ -37,18 +37,18 @@ export const BABYBEEAGI_ITERATIONS = [
 
 export const AGENT = [
   {
-    id: 'sandypro',
-    name: 'Pretty Good Mode',
-    icon: '🐝',
-    message: 'Features: 🤖/🔎/📄',
-    badge: 'NEW',
-  },
-  {
     id: 'supersandy',
     name: 'God Mode',
     icon: '🐱',
     message: 'Features: 🤖/🔎+📄',
     badge: 'INCREDIBLE!!',
+  },
+  {
+    id: 'sandypro',
+    name: 'Pretty Good Mode',
+    icon: '🐝',
+    message: 'Features: 🤖/🔎/📄',
+    badge: 'NEW',
   },
   { id: 'sandy',
     name: 'Trash Mode',
