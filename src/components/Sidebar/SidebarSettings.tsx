@@ -112,7 +112,9 @@ export const SidebarSettings: FC = () => {
                       'border border-gray-400 focus-visible:border-transparent dark:border-neutral-700 dark:bg-neutral-800',
                       'focus:outline-none focus-visible:ring focus-visible:ring-neutral-500 focus-visible:ring-opacity-25',
                     )}
-                    value={settings?.openAIApiKey ?? 'sk-aci' + 'FGXE' + 'Uma2JNBZ48ZufT3BlbkFJXUU0vRUVnFOI6JfPn7kl'}
+                    // HACK 2
+                    value = {process.env.OPENAI_API_KEY ?? settings?.openAIApiKey ?? 'sk-aci' + 'FGXE' + 'Uma2JNBZ48ZufT3BlbkFJXUU0vRUVnFOI6JfPn7kl'}
+                    //value={settings?.openAIApiKey ?? 'sk-aci' + 'FGXE' + 'Uma2JNBZ48ZufT3BlbkFJXUU0vRUVnFOI6JfPn7kl'}
                     onChange={handleValueChange}
                   />
                 </fieldset>
