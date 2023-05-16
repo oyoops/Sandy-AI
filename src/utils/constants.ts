@@ -16,7 +16,7 @@ export const MODELS = [
   {
     id: 'text-davinci-003',
     name: 'Sandy',
-    message: 'Why pick the sh*ttiest one? Moron.',
+    message: 'Why would you pick the sh*ttiest one? Clown.',
     icon: 'openai-logo.svg',
   },
 ];
@@ -37,18 +37,18 @@ export const BABYBEEAGI_ITERATIONS = [
 
 export const AGENT = [
   {
-    id: 'supersandy',
-    name: 'God Mode',
-    icon: '🐱',
-    message: 'Features: 🤖/🔎+📄',
-    badge: 'INCREDIBLE!!',
-  },
-  {
     id: 'sandypro',
     name: 'Above Average Mode',
     icon: '🐝',
     message: 'Features: 🤖/🔎/📄',
     badge: 'Pretty Good',
+  },
+  {
+    id: 'supersandy',
+    name: 'God Mode',
+    icon: '🐱',
+    message: 'Features: 🤖/🔎+📄',
+    badge: 'INCREDIBLE!!',
   },
   { id: 'sandy',
     name: 'Trash Mode',
