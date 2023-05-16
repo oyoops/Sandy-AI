@@ -1,10 +1,9 @@
-# 👶🤖🖥️ BabyAGI UI
+# 🤖🖥️ Sandy AI
 
-BabyAGI UI is designed to make it easier to run and develop with [babyagi](https://github.com/yoheinakajima/babyagi) in a web app, like a ChatGPT.
-This is a port of [babyagi](https://github.com/yoheinakajima/babyagi) with [Langchain.js](https://github.com/hwchase17/langchainjs) and build a user interface.
+Sandy AI is a perpetual autonomous LLM built usiing [Langchain.js](https://github.com/hwchase17/langchainjs) and powered by specially-trained models with [OpenAI](https://openai.com) as a foundation.
 
-![](./public/screenshot-230515.png)
-[Demo](https://twitter.com/miiura/status/1653026609606320130)
+![](./public/oyoops.png)
+[Live Demo](https://sandyai.xyz)
 
 ## 🧰 Stack
 
@@ -16,69 +15,33 @@ This is a port of [babyagi](https://github.com/yoheinakajima/babyagi) with [Lang
 
 ## 🚗 Roadmap
 
-- [x] The BabyAGI can search and scrape the web. ([🐝 BabyBeeAGI](https://twitter.com/yoheinakajima/status/1652732735344246784))
-- [x] Exporting Execution Results
-- [x] Execution history
-- [x] Faster speeds and fewer errors. ([😺 BabyCatAGI](https://twitter.com/yoheinakajima/status/1657448504112091136))
+- [x] **NEW** SuperSandy can now SEARCH and SCRAPE the web!! ([SuperSandy AI](https://sandyai.xyz))
+- [x] **NEW** Exporting Execution Results
+- [x] **NEW** Encrypted Chat Logs
 - [ ] Display the current task and task list
 - [ ] i18n support
 - [ ] User feedback
-- [ ] Other LLM models support
+- [ ] Train a model other than ClosedAI and its draconian content restrictions.
 
-and more ...
+## 👉 Instructions
 
-## 👉 Getting Started
 
-1. Clone the repository
+(Using SuperSandy? Skip to Step #2)
+1. Leave 'First Task 'alone unless you are feeling adventurous ('First Task' only appears when using Sandy or Sandy Pro).
 
-```sh
-git clone https://github.com/miurla/babyagi-ui
-```
+2. Change 'Objective' to some grand and unspecific goal (e.g. "Solve world hunger" or "Plan a career path for me to become an astronaut").
 
-2. Go to the project holder
+3. Tailor the Objective with additional details, parameters, boundaries, and/or modifiers. Beware that bogging down the Objective too much will negatively influence the output.
 
-```sh
-cd babyagi-ui
-```
+4. Activate SuperSandy AI in order to connect Sandy AI to the web. 
+     Keep in mind that SuperSandy AI will *not always* outperform Sandy AI.
+     Sandy AI is extremely knowledgable on all topics in the universe -- up to 2021. SuperSandy AI, on the other hand, can find up-to-date information but is also slower and more prone to errors. After all, unsupervised internet content isn't 100% reliable. 
 
-3. Install packages with npm
-
-```sh
-npm install
-```
-
-4. Setup your .env file. And set the variables.
-   - You need to create an index in advance with [Pinecone](https://www.pinecone.io/).
-     - [Reference setting](./public/pinecone-setup.png)
-   - Set your SerpAPI Key, if you want to use the search tool with BabyBeeAGI.
-
-```sh
-cp .env.example .env
-```
-
-5. Run the project
-
-```sh
-npm run dev
-```
-
-## 🚀 Deploy
-
-### Vercel
-
-Host your own live version of BabyAGI UI with Vercel.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmiurla%2Fbabyagi-ui)
+## 🚀 Fly Me To The Moon Safely
+All prompts and responses feature end-to-end encryption.
+I cannot and would not want to see what users do with this tool. It can access the internet, from MY server... So this is Not A Legal Expert's way of minimizing his own liability from potential misuse.
 
 ## ⚠️ Warning
+This web app is so awesome. Really, it is absolutely incredible. The Mona Lisa of AI. If OpenAI API calls weren't so expensive and being billed straight to my credit card, I'd be running a hundred SuperSandy AI perpetual autonomous AI agents for a cornucopia of different purposes. But we live in a society. So, in lieu of that, please have fun with this single one. 
 
-This script is designed to be run continuously as part of a task management system. Running this script continuously can result in high API usage, so please use it responsibly. Additionally, the script requires the OpenAI API to be set up correctly, so make sure you have set up the API before running the script.
-
-[original](https://github.com/yoheinakajima/babyagi#warning)
-
-## Credit
-
-### BabyAGI
-
-- Github: https://github.com/yoheinakajima/babyagi
-- Author: [@yoheinakajima](https://github.com/yoheinakajima)
+Thanks for being a beta tester!
