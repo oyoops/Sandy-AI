@@ -5,7 +5,7 @@ export const MODELS = [
   {
     id: 'gpt-4',
     name: 'SuperSandy',
-    message: '🚨 SuperSandy is Amazing but Expensive!',
+    message: '🚨 SuperSandy = Lowkey Buggy!',
     icon: 'openai-logo.svg',
   },
   {
@@ -48,12 +48,12 @@ export const AGENT = [
     name: 'Above Average Mode',
     icon: '🐝',
     message: 'Features: 🤖/🔎/📄',
-    badge: 'Pretty Good!',
+    badge: 'Pretty Good',
   },
   { id: 'sandy',
     name: 'Trash Mode',
     icon: '👶',
     message: 'Features: 🤖',
-    badge: 'Nothing Special.',
+    badge: 'Nothing Special...',
   },
 ];
