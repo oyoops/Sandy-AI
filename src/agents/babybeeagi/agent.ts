@@ -54,10 +54,10 @@ export class BabyBeeAGI {
   printBabyBee() {
     if (!this.verbose) return;
     console.log(
-      '%c*****BABY BEE AGI*****\n\n%c%s',
+      '%c*****SuperSandy AI*****\n\n%c%s',
       'color:orange',
       '',
-      'Baby Bee AGI is running...',
+      'SuperSandy AI is running...',
     );
   }
 

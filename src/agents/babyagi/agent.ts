@@ -73,7 +73,7 @@ export class BabyAGI {
   printGPT4Alert() {
     if (this.modelName !== 'gpt-4') return;
     console.log(
-      '%c***** You are using SuperSandy. It is very expensive! *****%c',
+      '%c***** You\'re using SuperSandy. It\'s expensive! *****%c',
       'color:red',
       '',
     );

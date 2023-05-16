@@ -25,25 +25,25 @@ export default function Home() {
         <title>BabyAGI-UI</title>
         <meta
           name="description"
-          content="BabyAGI UI is designed to make it easier to run and develop with babyagi in a web app, like a ChatGPT."
+          content="SuperSandy AI is a game-changer."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-        <meta property="og:title" content="BabyAGI-UI" />
+        <meta property="og:title" content="SuperSandy AI" />
         <meta
           property="og:description"
-          content="BabyAGI UI is designed to make it easier to run and develop with babyagi in a web app, like a ChatGPT."
+          content="SuperSandy AI is a game-changer."
         />
-        <meta property="og:url" content="https://babyagi-ui.vercel.app/" />
+        <meta property="og:url" content="https://sandyai.xyz" />
         <meta
           property="og:image"
-          content="https://babyagi-ui.vercel.app/og-image.png"
+          content="https://sandyai.xyz/og-image.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="BabyAGI-UI" />
+        <meta name="twitter:title" content="SuperSandy AI" />
         <meta
           name="twitter:description"
-          content="BabyAGI UI is designed to make it easier to run and develop with babyagi in a web app, like a ChatGPT."
+          content="SuperSandy AI is a game-changer."
         />
         <meta name="twitter:image" content="/og-image.png" />
       </Head>

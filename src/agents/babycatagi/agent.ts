@@ -42,10 +42,10 @@ export class BabyCatAGI {
   printBabyCat() {
     if (!this.verbose) return;
     console.log(
-      '%c***** BABY CAT AGI*****\n\n%c%s',
+      '%c***** SuperSandy AI*****\n\n%c%s',
       'color:orange',
       '',
-      'Baby Cat AGI is running...',
+      'SuperSandy AI is running...',
     );
   }
 
