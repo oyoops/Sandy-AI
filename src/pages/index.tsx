@@ -22,17 +22,17 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>BabyAGI-UI</title>
+        <title>SuperSandy AI</title>
         <meta
           name="description"
-          content="SuperSandy AI is a game-changer."
+          content="SuperSandy = The next quantum leap in AI."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:title" content="SuperSandy AI" />
         <meta
           property="og:description"
-          content="SuperSandy AI is a game-changer."
+          content="SuperSandy = The next quantum leap in AI."
         />
         <meta property="og:url" content="https://sandyai.xyz" />
         <meta
@@ -43,7 +43,7 @@ export default function Home() {
         <meta name="twitter:title" content="SuperSandy AI" />
         <meta
           name="twitter:description"
-          content="SuperSandy AI is a game-changer."
+          content="SuperSandy = The next quantum leap in AI."
         />
         <meta name="twitter:image" content="/og-image.png" />
       </Head>
