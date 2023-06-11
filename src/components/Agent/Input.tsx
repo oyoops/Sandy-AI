@@ -85,8 +85,8 @@ export const Input: FC<InputProps> = ({
             className="m-0 w-full resize-none border-0 bg-transparent p-0 pl-2 pr-12 text-black outline-none focus:ring-0 focus-visible:ring-0 dark:bg-transparent dark:text-white md:pl-0"
             placeholder={
               agent !== 'sandy'
-                ? 'Input your Objective... \"Write a preview of the 2023 NBA Eastern Conference Finals.\"'
-                : 'Input your Objective... \"Solve world hunger.\"'
+                ? 'Input your Objective... \"Bring me up to date on the Trump classified documents indictment.\"'
+                : 'Input your Objective... \"Solve the American housing affordability crisis.\"'
             }
             value={value}
             onChange={(e) => onChange(e.target.value)}
