@@ -121,9 +121,9 @@ export const Input: FC<InputProps> = ({
           rel="noreferrer"
           className="underline"
         >
-          SuperSandy, Sandy Pro, and Sandy
+          Sandy
         </a>
-        {' AI models are perpetual autonomous LLMs. Together, they bring us one step closer to the Singularity. Many are calling '}
+        {' AI suite is a set of perpetual autonomous LLMs. They break one objective down into its constituent subtasks. See the '}
         <a
           href="https://github.com/oyoops/Sandy-AI"
           target="_blank"
@@ -132,7 +132,7 @@ export const Input: FC<InputProps> = ({
         >
           SuperSandy
         </a>
-        {' the \"Mona Lisa of AI.\"'}
+        {' repo on GitHub.'}
       </div>
     </div>
   );

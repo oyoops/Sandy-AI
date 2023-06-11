@@ -21,7 +21,7 @@ export const MODELS = [
 ];
 
 export const ITERATIONS = [
-  { id: '0', name: 'Commit Eco-Terrorism' },
+  { id: '0', name: 'Infinite' },
   { id: '1', name: '1' },
   { id: '3', name: '3' },
   { id: '5', name: '5' },
