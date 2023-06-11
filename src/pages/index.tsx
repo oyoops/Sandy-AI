@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>SuperSandy AI</title>
+        <title>Sandy AI</title>
         <meta
           name="description"
           content="SuperSandy = The next quantum leap in AI."
