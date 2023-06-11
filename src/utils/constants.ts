@@ -4,19 +4,18 @@ export const EXECUTIONS_KEY = 'BABYAGIUI_EXECUTIONS';
 export const MODELS = [
   {
     id: 'gpt-3.5-turbo',
-    name: 'Sandy Pro',
+    name: 'Sandy AI Pro',
     icon: 'openai-logo.svg',
   },
   {
     id: 'gpt-4',
-    name: 'SuperSandy',
-    message: '🚨 SuperSandy lowkey has bugs!',
+    name: 'SuperSandy AI',
+    message: '🚨 SuperSandy ACTIVE! 🚨',
     icon: 'openai-logo.svg',
   },
   {
     id: 'text-davinci-003',
-    name: 'Sandy',
-    message: 'Why would you pick the sh*ttiest one? Clown.',
+    name: 'Sandy AI',
     icon: 'openai-logo.svg',
   },
 ];
@@ -41,19 +40,19 @@ export const AGENT = [
     name: 'God Mode',
     icon: '🐱',
     message: 'Features: 🤖/🔎+📄',
-    badge: 'INCREDIBLE!!',
+    badge: 'Wow, it is great!',
   },
   {
     id: 'sandypro',
     name: 'Pretty Good Mode',
     icon: '🐝',
     message: 'Features: 🤖/🔎/📄',
-    badge: 'NEW',
+    badge: 'It is above average!',
   },
   { id: 'sandy',
     name: 'Trash Mode',
     icon: '👶',
     message: 'Features: 🤖',
-    badge: 'Nothing Special :-(.',
+    badge: '... This one sucks.',
   },
 ];
