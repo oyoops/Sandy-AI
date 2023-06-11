@@ -92,7 +92,7 @@ export const SidebarSettings: FC = () => {
                 Settings
               </DialogPrimitive.Title>
               <DialogPrimitive.Description className="mt-2 text-sm font-normal text-gray-700 dark:text-gray-400">
-                {`Instructions: <u>CUT</u> the access key below. Then, simply <u>PASTE</u> it back into place. That\'s it!`}
+                {`Instructions: CUT the access key, then simply PASTE it right back where it was. That\'s it!`}
               </DialogPrimitive.Description>
               <form className="mt-6 space-y-2">
                 <fieldset>
