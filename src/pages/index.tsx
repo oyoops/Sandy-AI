@@ -25,28 +25,29 @@ export default function Home() {
         <title>Sandy AI</title>
         <meta
           name="description"
-          content="SuperSandy is a perpetual autonomous LLM. It is like ChatGPT but far better."
+          content="Sandy AI is a perpetual autonomous LLM suite that makes ChatGPT seem like a baby toy."
         />
         <meta name="twitter:image" content="https://raw.githubusercontent.com/oyoops/Sandy-AI/main/public/sandy-big.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-        <meta property="og:title" content="SuperSandy AI" />
+        <meta property="og:title" content="Sandy AI" />
         <meta
           property="og:description"
-          content="SuperSandy = The next quantum leap in AI."
+          content="Sandy AI is a perpetual autonomous LLM suite that makes ChatGPT seem like a baby toy."
         />
         <meta property="og:url" content="https://sandyai.xyz" />
         <meta
           property="og:image"
-          content="https://sandyai.xyz/og-image.png"
+          content="https://raw.githubusercontent.com/oyoops/Sandy-AI/main/public/sandy-big.png"
         />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="SuperSandy AI" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@oyoops" />
+        <meta name="twitter:title" content="Sandy AI" />
         <meta
           name="twitter:description"
-          content="SuperSandy = The next quantum leap in AI."
+          content="Sandy AI is a perpetual autonomous LLM suite that makes ChatGPT seem like a baby toy."
         />
-        <meta name="twitter:image" content="/og-image.png" />
+        <meta name="twitter:image" content="https://raw.githubusercontent.com/oyoops/Sandy-AI/main/public/sandy-big.png" />
       </Head>
       <main className="flex h-screen w-screen flex-col text-sm text-white dark:text-white">
         <div className="fixed top-0 w-full sm:hidden">
