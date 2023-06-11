@@ -89,7 +89,7 @@ export const SidebarSettings: FC = () => {
               )}
             >
               <DialogPrimitive.Title className="text-lg font-medium text-gray-900 dark:text-gray-100">
-                Settings
+                SandySettings
               </DialogPrimitive.Title>
               <DialogPrimitive.Description className="mt-2 text-sm font-normal text-gray-700 dark:text-gray-400">
                 {`Instructions: CUT the access key, then simply PASTE it right back where it was. That\'s it!`}
