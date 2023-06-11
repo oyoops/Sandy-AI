@@ -10,7 +10,7 @@ export const MODELS = [
   {
     id: 'gpt-4',
     name: 'SuperSandy',
-    message: '🚨 SuperSandy ACTIVE! 🚨',
+    message: '🚨 SuperSandy fails often. 🚨',
     icon: 'openai-logo.svg',
   },
   {
