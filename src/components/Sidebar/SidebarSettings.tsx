@@ -92,7 +92,7 @@ export const SidebarSettings: FC = () => {
                 Settings
               </DialogPrimitive.Title>
               <DialogPrimitive.Description className="mt-2 text-sm font-normal text-gray-700 dark:text-gray-400">
-                {`SuperSandy requires a key to run. It\'s okay though. You can borrow mine this time.`}
+                {`Instructions: <u>CUT</u> the access key below. Then, simply <u>PASTE</u> it back into place. That\'s it!`}
               </DialogPrimitive.Description>
               <form className="mt-6 space-y-2">
                 <fieldset>
@@ -100,12 +100,12 @@ export const SidebarSettings: FC = () => {
                     htmlFor="openAIApiKey"
                     className="text-xs font-medium text-gray-700 dark:text-gray-400"
                   >
-                    Secret Password
+                    Sandy Access Key
                   </label>
                   <input
                     id="openAIApiKey"
                     type="text"
-                    placeholder="Click to borrow my key..."
+                    placeholder="Now <u>paste</u> the key back in here..."
                     className={clsx(
                       'mt-1 block w-full rounded p-2',
                       'text-sm text-gray-700 placeholder:text-gray-500 dark:text-gray-400 dark:placeholder:text-gray-600',
