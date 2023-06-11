@@ -40,7 +40,7 @@ export const AGENT = [
     name: 'God Mode',
     icon: '🐱',
     message: 'Features: 🤖/🔎+📄',
-    badge: 'ACCESS DENIED.',
+    badge: 'NOT Available',
   },
   {
     id: 'sandypro',
@@ -53,6 +53,6 @@ export const AGENT = [
     name: 'Trash Mode',
     icon: '👶',
     message: 'Features: 🤖',
-    badge: 'Mediocre!',
+    badge: 'Mediocre...',
   },
 ];
