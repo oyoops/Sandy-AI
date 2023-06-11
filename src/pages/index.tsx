@@ -25,8 +25,9 @@ export default function Home() {
         <title>Sandy AI</title>
         <meta
           name="description"
-          content="SuperSandy = The next quantum leap in AI."
+          content="SuperSandy is a perpetual autonomous LLM. It is like ChatGPT but far better."
         />
+        <meta name="twitter:image" content="https://raw.githubusercontent.com/oyoops/Sandy-AI/main/public/sandy-big.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:title" content="SuperSandy AI" />
