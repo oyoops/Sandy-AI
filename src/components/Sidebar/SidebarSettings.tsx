@@ -105,7 +105,7 @@ export const SidebarSettings: FC = () => {
                   <input
                     id="openAIApiKey"
                     type="text"
-                    placeholder="Now <u>paste</u> the key back in here..."
+                    placeholder="Now PASTE the key right back in here again."
                     className={clsx(
                       'mt-1 block w-full rounded p-2',
                       'text-sm text-gray-700 placeholder:text-gray-500 dark:text-gray-400 dark:placeholder:text-gray-600',
