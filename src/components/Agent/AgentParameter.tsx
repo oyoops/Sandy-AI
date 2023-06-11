@@ -85,7 +85,7 @@ export const AgentParameter: FC<AgentParameterProps> = ({
       {agent.id !== 'sandy' && (
         <div className="flex w-full flex-col rounded bg-neutral-50 p-2 dark:bg-neutral-600 dark:bg-opacity-20">
           <label className="pl-1 text-xs text-neutral-400 dark:text-neutral-400">
-            {`\'God Mode\' works on Sandy Pro only.`}
+            {`You are not authorized to use \'God Mode\'. You couldn\'t handle it anyway.`}
           </label>
         </div>
       )}

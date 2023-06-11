@@ -40,7 +40,7 @@ export const AGENT = [
     name: 'God Mode',
     icon: '🐱',
     message: 'Features: 🤖/🔎+📄',
-    badge: 'INCREDIBLE!',
+    badge: 'ACCESS DENIED.',
   },
   {
     id: 'sandypro',
