@@ -27,8 +27,9 @@ export const AgentParameter: FC<AgentParameterProps> = ({
 }) => {
   const [agentOption, setAgentOption] = useState<SelectItem[]>(AGENT);
   useEffect(() => {
+    // if NOT using SuperSandy
     if (model.id !== 'gpt-4') {
-      //setAgentOption(AGENT.filter((agent) => agent.id === 'sandy'));
+      //setAgentOption(AGENT.filter((agent) => agent.id === 'supersandy'));
       setAgentOption(AGENT); // HACK
     } else {
       setAgentOption(AGENT);
@@ -57,6 +58,7 @@ export const AgentParameter: FC<AgentParameterProps> = ({
         />
       </div>
       {agent.id === 'sandy' && (
+        // if Pretty Good mode:
         <div className="z-20 flex w-1/2 items-start pr-1 pt-2">
           <Select
             label="Iterations"
@@ -71,7 +73,9 @@ export const AgentParameter: FC<AgentParameterProps> = ({
         </div>
       )}
       {agent.id !== 'supersandy' && (
+        // if Pretty Good or Trash mode:
         <div className="flex w-full flex-col">
+          // then show First Task input.
           <label className="mb-2 text-left text-xs text-neutral-700 dark:text-neutral-400">
             {'First Task'}
           </label>
@@ -82,10 +86,13 @@ export const AgentParameter: FC<AgentParameterProps> = ({
           ></input>
         </div>
       )}
-      {agent.id !== 'sandy' && (
+      
+      // if God Mode:
+      {model.id == 'supersandy' && (
+        // then display a special announcement.
         <div className="flex w-full flex-col rounded bg-neutral-50 p-2 dark:bg-neutral-600 dark:bg-opacity-20">
           <label className="pl-1 text-xs text-neutral-400 dark:text-neutral-400">
-            {`\'SuperSandy\' is currently down for maintenance. For best results, use the \'Sandy\' model in \'God Mode\'.`}
+            {`Unfortunately, God Mode does not yet work with SuperSandy. Instead, try it using Sandy.`}
           </label>
         </div>
       )}
