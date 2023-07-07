@@ -57,8 +57,8 @@ export const AgentParameter: FC<AgentParameterProps> = ({
           }}
         />
       </div>
-      {agent.id === 'sandy' && (
-        // if Pretty Good mode:
+      {agent.id !== 'supersandy' && (
+        // if NOT God Mode...
         <div className="z-20 flex w-1/2 items-start pr-1 pt-2">
           <Select
             label="Iterations"
@@ -73,9 +73,8 @@ export const AgentParameter: FC<AgentParameterProps> = ({
         </div>
       )}
       {agent.id !== 'supersandy' && (
-        // if Pretty Good or Trash mode:
+        // if NOT God Mode...
         <div className="flex w-full flex-col">
-          // then show First Task input.
           <label className="mb-2 text-left text-xs text-neutral-700 dark:text-neutral-400">
             {'First Task'}
           </label>
@@ -87,9 +86,8 @@ export const AgentParameter: FC<AgentParameterProps> = ({
         </div>
       )}
       
-      // if God Mode:
-      {model.id == 'supersandy' && (
-        // then display a special announcement.
+      {agent.id == 'supersandy' && (
+        // Display a special announcement if using God Mode
         <div className="flex w-full flex-col rounded bg-neutral-50 p-2 dark:bg-neutral-600 dark:bg-opacity-20">
           <label className="pl-1 text-xs text-neutral-400 dark:text-neutral-400">
             {`Unfortunately, God Mode does not yet work with SuperSandy. Instead, try it using Sandy.`}
