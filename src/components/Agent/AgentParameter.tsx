@@ -27,10 +27,10 @@ export const AgentParameter: FC<AgentParameterProps> = ({
 }) => {
   const [agentOption, setAgentOption] = useState<SelectItem[]>(AGENT);
   useEffect(() => {
-    // if NOT using SuperSandy
+    // if NOT using SuperSandy, limit options.
     if (model.id !== 'gpt-4') {
-      //setAgentOption(AGENT.filter((agent) => agent.id === 'supersandy'));
-      setAgentOption(AGENT); // HACK
+      setAgentOption(AGENT.filter((agent) => agent.id === 'supersandy'));
+      //setAgentOption(AGENT); // HACK
     } else {
       setAgentOption(AGENT);
     }
