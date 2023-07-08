@@ -86,7 +86,7 @@ export const AgentParameter: FC<AgentParameterProps> = ({
         </div>
       )}
       
-      {agent.id == 'supersandy' && (
+      {model.id == 'gpt-4' && (
         // Display a special announcement if using God Mode
         <div className="flex w-full flex-col rounded bg-neutral-50 p-2 dark:bg-neutral-600 dark:bg-opacity-20">
           <label className="pl-1 text-xs text-neutral-400 dark:text-neutral-400">
