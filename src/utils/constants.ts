@@ -4,13 +4,13 @@ export const EXECUTIONS_KEY = 'BABYAGIUI_EXECUTIONS';
 export const MODELS = [
   {
     id: 'gpt-3.5-turbo',
-    name: 'SuperSandy',
-    message: '🚨 Brand New! 🚨',
+    name: 'Sandy',
     icon: 'openai-logo.svg',
   },
   {
     id: 'gpt-4',
-    name: 'Sandy',
+    name: 'SuperSandy',
+    message: '🚨 Brand New! 🚨',
     icon: 'openai-logo.svg',
   },
   {
