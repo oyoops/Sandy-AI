@@ -90,7 +90,7 @@ export const AgentParameter: FC<AgentParameterProps> = ({
         // Display a special announcement if using God Mode
         <div className="flex w-full flex-col rounded bg-neutral-50 p-2 dark:bg-neutral-600 dark:bg-opacity-20">
           <label className="pl-1 text-xs text-neutral-400 dark:text-neutral-400">
-            {`Unfortunately, God Mode does not yet work with SuperSandy. Instead, try it using Sandy.`}
+            {`Unfortunately, SuperSandy is down for maintenance. Use Sandy instead.`}
           </label>
         </div>
       )}
