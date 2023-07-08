@@ -8,15 +8,15 @@ export const MODELS = [
     icon: 'openai-logo.svg',
   },
   {
-    id: 'gpt-4',
-    name: 'SuperSandy',
-    message: '🚨 Brand New! 🚨',
+    id: 'text-davinci-003',
+    name: 'Sandy Lite',
+    message: 'Much Worse!',
     icon: 'openai-logo.svg',
   },
   {
-    id: 'text-davinci-003',
-    name: 'Sandy Lite',
-    message: 'Worst model by far!',
+    id: 'gpt-4',
+    name: 'SuperSandy',
+    message: '🚨 DOES NOT WORK! 🚨',
     icon: 'openai-logo.svg',
   },
 ];
