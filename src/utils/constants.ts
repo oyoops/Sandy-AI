@@ -14,7 +14,7 @@ export const MODELS = [
     icon: 'openai-logo.svg',
   },
   {
-    id: 'gpt-3.5-turbo',
+    id: 'text-davinci-003',
     name: 'Sandy Lite',
     message: 'Worst model by far!',
     icon: 'openai-logo.svg',
