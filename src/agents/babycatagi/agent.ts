@@ -142,7 +142,8 @@ export class BabyCatAGI {
   // Tools functions
   async textCompletionTool(prompt: string) {
     if (getUserApiKey()) {
-      return await textCompletion(prompt, 'gpt-3.5-turbo', getUserApiKey());
+      ////return await textCompletion(prompt, 'gpt-3.5-turbo', getUserApiKey());
+      return await textCompletion(prompt, 'gpt-4', getUserApiKey());
     }
 
     const response = await axios
